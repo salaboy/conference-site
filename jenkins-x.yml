@@ -4,4 +4,4 @@ pipelineConfig:
     release:
       promote:
         steps:
-        - command: updatebot push-version --kind helm conference-site \$(cat VERSION)
+        - command: jx step create pr chart --name conference-site --version $VERSION  --repo https://github.com/salaboy/conference-helm-chart.git 

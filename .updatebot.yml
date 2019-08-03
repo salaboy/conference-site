@@ -1,6 +1,0 @@
-github:
-  organisations:
-  - name: salaboy 
-    repositories:
-    - name: conference-helm-chart 
-      useSinglePullRequest: true
