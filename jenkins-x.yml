@@ -1,1 +1,7 @@
 buildPack: maven
+pipelineConfig:
+  pipelines:
+    release:
+      promote:
+        steps:
+        - command: updatebot push-version --kind helm conference-site \$(cat VERSION)
