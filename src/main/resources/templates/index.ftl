@@ -26,7 +26,8 @@
 <!-- Add your site or application content here -->
 <div class="block conference">
     <div class="container">
-        <h1>Conference V${version}</h1>
+        <h1>Jenkins World 2019!</h1>
+        <h2>Conference V${version}</h2>
     </div>
 </div>
 <div class="bottom-blocks">
