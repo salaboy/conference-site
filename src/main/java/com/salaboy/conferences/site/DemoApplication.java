@@ -45,8 +45,8 @@ class ConferenceSiteController {
         }
 
         model.addAttribute("version", version);
-        model.addAttribute("sponsors", agendaString);
-        model.addAttribute("agenda", sponsorsString);
+        model.addAttribute("agenda", agendaString);
+        model.addAttribute("sponsors", sponsorsString);
         return "index";
     }
 
