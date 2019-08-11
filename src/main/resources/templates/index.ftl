@@ -20,14 +20,16 @@
 
 <body>
 <!--[if IE]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
 <![endif]-->
 
 <!-- Add your site or application content here -->
 <div class="block conference">
     <div class="container">
+
         <h1>Jenkins World 2019!</h1>
-        <h2>Conference V${version}</h2>
+        <h2>Conference V${version}   <img src="jenkinsx-icon-black.png" width="7%"/></h2>
     </div>
 </div>
 <div class="bottom-blocks">
@@ -43,14 +45,15 @@
     </div>
 </div>
 <script src="js/vendor/modernizr-3.7.1.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 <script type="text/javascript">
-    $(document).ready(function() {
-        setInterval(function() {
-            window.location=window.location;
+    $(document).ready(function () {
+        setInterval(function () {
+            window.location = window.location;
         }, 3000);
     });
 </script>
